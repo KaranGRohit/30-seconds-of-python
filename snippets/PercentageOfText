@@ -1,0 +1,19 @@
+---
+title: Textblob
+tags: function,NLP,Text analysis
+---
+
+Textblob is a NLP Lib.
+
+```py
+from textblob import Textblob
+
+def percentage(part, whole):
+    return 100*float(part)/float(whole)
+```
+
+```py
+positive = percentage(positive, noOfSearchTerms)
+negative = percentage(negative, noOfSearchTerms)
+neutral = percentage(neutral, noOfSearchTerms)
+```
